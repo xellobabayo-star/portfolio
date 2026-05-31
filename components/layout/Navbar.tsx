@@ -26,7 +26,7 @@ export default function Navbar() {
           href="#"
           className="font-mono text-sm font-bold tracking-widest text-white hover:text-[#00f2ff] transition-colors group"
         >
-          SAM<span className="text-[#ff0055] group-hover:animate-ping">.DEV</span>
+          ANNAS<span className="text-[#ff0055] group-hover:animate-ping">.DEV</span>
         </Link>
 
         {/* Nav links */}

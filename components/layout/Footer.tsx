@@ -16,7 +16,7 @@ export default function Footer() {
 
           {/* Branding */}
           <div className="text-xs text-zinc-600">
-            <span className="text-white font-bold">SAM.DEV</span>
+            <span className="text-white font-bold">ANNAS</span>
             <span className="mx-2 text-zinc-700">//</span>
             CYBER_PORTFOLIO_2108
           </div>

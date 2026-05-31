@@ -10,7 +10,7 @@ export default function LoadingScreen() {
     "[ DECRYPT ] Unpacking assets from Archive 2015...",
     "[ NETWORK ] Establishing decentralized node over Neo Jakarta...",
     "[ BYPASS ] Firewall status: BYPASSED (No filters loaded)...",
-    "[ RECOVERY ] Scanning system administrator profile: SAM...",
+    "[ RECOVERY ] Scanning system administrator profile: annas...",
     "[ ACCESS ] Credentials verified. Welcome back, Admin.",
     "[ BOOT ] Launching Graphic User Interface..."
   ];
@@ -59,7 +59,7 @@ export default function LoadingScreen() {
       {/* Bottom Banner */}
       <div className="flex justify-between border-t border-zinc-900 pt-2 text-[10px]">
         <div>SECURE_LAYER: NONE</div>
-        <div>AUTHORIZED_BY: ADMIN_SAM</div>
+        <div>AUTHORIZED_BY: ANNAS</div>
       </div>
     </div>
   );
