@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import GlassCard from "../ui/GlassCard";
 import SectionTitle from "../ui/SectionTitle";
-import AnimatedText from "../ui/AnimatedText";
 
 export default function About() {
   return (
@@ -10,15 +10,23 @@ export default function About() {
       <SectionTitle title="About_Me" id="01" />
       
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-        {/* Kolon Kiri: Status Profile */}
+        {/* Kolom Kiri: Profile Card */}
         <GlassCard className="md:col-span-1 border-[#ff0055]/30">
           <div className="flex flex-col items-center text-center font-mono">
-            <div className="relative mb-4 h-32 w-32 overflow-hidden rounded-md border border-zinc-800 bg-zinc-900 p-2">
-              {/* Box Kosong buat profile.jpg lu, Tuan */}
-              <div className="h-full w-full bg-[radial-gradient(circle,#222_0%,#0a0a0a_100%)] flex items-center justify-center text-zinc-700 text-xs border border-dashed border-zinc-700">
-                [ SAM_PIC ]
-              </div>
+
+            {/* Foto Profil */}
+            <div className="relative mb-4 h-32 w-32 overflow-hidden rounded-md border border-[#00f2ff]/30">
+              <Image
+                src="/profile.jpg"
+                alt="SAM"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+              {/* Overlay scan efek */}
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]/40 pointer-events-none" />
             </div>
+
             <div className="text-sm font-bold tracking-widest text-[#00f2ff]">ADMIN::SAM</div>
             <div className="text-[10px] text-zinc-500 mt-1">STATUS: OPERATIONAL</div>
             
@@ -31,7 +39,7 @@ export default function About() {
           </div>
         </GlassCard>
 
-        {/* Kolon Kanan: Narasi Story */}
+        {/* Kolom Kanan: Narasi */}
         <GlassCard className="md:col-span-2">
           <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
             <span className="text-[#00f2ff]">&gt;</span> OVERVIEW_
