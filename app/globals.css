@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-cyan: #00f2ff;
+  --neon-magenta: #ff0055;
+  --cyber-dark: #0a0a0a;
+}
+
+body {
+  background-color: var(--cyber-dark);
+  cursor: none;
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(rgba(18,16,16,0) 50%, rgba(0,0,0,0.25) 50%);
+  background-size: 100% 4px;
+  z-index: 99;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #1a1a1a; border-left: 1px solid var(--neon-cyan); }
+::-webkit-scrollbar-thumb:hover { background: var(--neon-cyan); box-shadow: 0 0 10px var(--neon-cyan); }
+
+@keyframes glitch {
+  0%   { text-shadow:  2px  2px var(--neon-magenta), -2px -2px var(--neon-cyan); }
+  50%  { text-shadow: -2px  2px var(--neon-cyan),     2px -2px var(--neon-magenta); }
+  100% { text-shadow:  2px -2px var(--neon-magenta), -2px  2px var(--neon-cyan); }
+}
+.animate-cyber-glitch { animation: glitch 0.3s infinite; }
+
+::selection { background: var(--neon-cyan); color: #000; }
