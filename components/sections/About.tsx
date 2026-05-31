@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import GlassCard from "../ui/GlassCard";
 import SectionTitle from "../ui/SectionTitle";
 
@@ -14,32 +15,33 @@ export default function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-24 select-none">
       <SectionTitle title="About_Me" id="01" />
-      
+
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
         {/* Kolom Kiri: Profile Card */}
         <GlassCard className="md:col-span-1 border-[#ff0055]/30">
           <div className="flex flex-col items-center text-center font-mono">
 
-            {/* Avatar placeholder cyberpunk — no image needed */}
-            <div className="relative mb-4 h-32 w-32 border border-[#00f2ff]/40 bg-zinc-900 flex items-center justify-center overflow-hidden">
-              {/* Background radial glow */}
-              <div className="absolute inset-0 bg-[radial-gradient(circle,#00f2ff10_0%,#0a0a0a_70%)]" />
-              {/* Grid lines */}
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:12px_12px]" />
-              {/* Big icon */}
-              <span className="relative text-5xl select-none" style={{ filter: "drop-shadow(0 0 10px #00f2ff)" }}>
-                ◈
-              </span>
-              {/* Corner accents */}
-              <span className="absolute top-1 left-1 w-2 h-2 border-t border-l border-[#00f2ff]" />
-              <span className="absolute top-1 right-1 w-2 h-2 border-t border-r border-[#00f2ff]" />
-              <span className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-[#00f2ff]" />
-              <span className="absolute bottom-1 right-1 w-2 h-2 border-b border-r border-[#00f2ff]" />
+            {/* Foto Profil */}
+            <div className="relative mb-4 h-36 w-36 overflow-hidden border border-[#00f2ff]/40">
+              <Image
+                src="/icons/profile.jpg"
+                alt="SAM"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+              {/* Overlay efek scan */}
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a]/50 pointer-events-none" />
+              {/* Corner brackets */}
+              <span className="absolute top-1 left-1 w-3 h-3 border-t border-l border-[#00f2ff]" />
+              <span className="absolute top-1 right-1 w-3 h-3 border-t border-r border-[#00f2ff]" />
+              <span className="absolute bottom-1 left-1 w-3 h-3 border-b border-l border-[#00f2ff]" />
+              <span className="absolute bottom-1 right-1 w-3 h-3 border-b border-r border-[#00f2ff]" />
             </div>
 
             <div className="text-sm font-bold tracking-widest text-[#00f2ff]">ADMIN::SAM</div>
             <div className="text-[10px] text-zinc-500 mt-1 animate-pulse">STATUS: OPERATIONAL</div>
-            
+
             <div className="mt-6 w-full text-left text-xs text-zinc-400 space-y-2 border-t border-zinc-900 pt-4">
               {profileData.map((item) => (
                 <div key={item.label}>
