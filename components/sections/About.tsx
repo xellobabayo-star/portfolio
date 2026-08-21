@@ -5,9 +5,9 @@ import GlassCard from "../ui/GlassCard";
 import SectionTitle from "../ui/SectionTitle";
 
 const profileData = [
-  { label: "NAME",      value: "ALL ANNAS FIRMANSYAH" },
-  { label: "UMUR",    value: "21 TAHUN" },
-  { label: "TAHUN", value: "14 JUNI 2003" },
+  { label: "NAME",      value: "XELLO BABAYO" },
+  { label: "UMUR",    value: "25 TAHUN" },
+  { label: "TAHUN", value: "14 JUNI 2001" },
   { label: "LOKASI",       value: "JAKARTA UTARA" },
 ];
 
@@ -25,7 +25,7 @@ export default function About() {
             <div className="relative mb-4 h-36 w-36 overflow-hidden border border-[#00f2ff]/40">
               <Image
                 src="/icons/profile.jpg"
-                alt="ANNAS"
+                alt="XELLO"
                 fill
                 className="object-cover object-top"
                 priority
@@ -39,7 +39,7 @@ export default function About() {
               <span className="absolute bottom-1 right-1 w-3 h-3 border-b border-r border-[#00f2ff]" />
             </div>
 
-            <div className="text-sm font-bold tracking-widest text-[#00f2ff]">ADMIN:Annas</div>
+            <div className="text-sm font-bold tracking-widest text-[#00f2ff]">ADMIN: XELLO</div>
             <div className="text-[10px] text-zinc-500 mt-1 animate-pulse">STATUS: OPERATIONAL</div>
 
             <div className="mt-6 w-full text-left text-xs text-zinc-400 space-y-2 border-t border-zinc-900 pt-4">
