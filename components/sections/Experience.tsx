@@ -8,7 +8,7 @@ const experiences = [
   {
     title: "Senior Full-Stack Engineer",
     company: "NEXUS_CORP // Digital Reconstruction Bureau",
-    period: "2106 — PRESENT",
+    period: "2017 — PRESENT",
     type: "ACTIVE_MISSION",
     desc: "Memimpin tim 5 developer membangun sistem distribusi data lintas wilayah Neo Jakarta. Implementasi microservices PHP/Laravel & Next.js untuk 200K+ daily active users pasca-kolaps infrastruktur.",
     tags: ["PHP", "Laravel", "Next.js", "PostgreSQL", "Redis", "Docker"],
@@ -16,7 +16,7 @@ const experiences = [
   {
     title: "Backend Architect",
     company: "DATACORE_LAB // Infrastructure Division",
-    period: "2104 — 2106",
+    period: "2019",
     type: "COMPLETED",
     desc: "Merancang ulang arsitektur backend yang lama dan korup. Migrasi dari monolith ke microservices — meningkatkan throughput sistem 340% tanpa satu detik downtime.",
     tags: ["Java", "Spring Boot", "Docker", "Kubernetes", "PostgreSQL"],
@@ -24,7 +24,7 @@ const experiences = [
   {
     title: "Frontend Specialist",
     company: "GRIDWAVE // Civilian Interface Unit",
-    period: "2102 — 2104",
+    period: "2020",
     type: "COMPLETED",
     desc: "Membangun antarmuka publik untuk jaringan komunikasi darurat pasca-kolaps. UI reaktif dengan data real-time via WebSockets — dipakai 50K+ penyintas setiap harinya.",
     tags: ["React", "TypeScript", "Framer Motion", "WebSocket", "Tailwind"],
@@ -32,7 +32,7 @@ const experiences = [
   {
     title: "Junior Developer",
     company: "ARCHIVAL_SYSTEMS // Legacy Recovery Unit",
-    period: "2100 — 2102",
+    period: "2021",
     type: "COMPLETED",
     desc: "Pemulihan database sistem lama dari arsip era 2015-2099. Konversi manual ribuan catatan analog ke format digital terenkripsi menggunakan Luau scripting engine.",
     tags: ["Luau", "Node.js", "SQLite", "Bash"],
