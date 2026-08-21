@@ -31,7 +31,7 @@ export default function Hero() {
         >
           <span>ROOT@NEO_JAKARTA_2108</span>
           <span className="text-zinc-600">~/</span>
-          <span className="text-[#00f2ff]">admin/Annas</span>
+          <span className="text-[#00f2ff]">admin/Xello</span>
           <span className="text-zinc-600">$</span>
           <span className="text-zinc-500 animate-pulse">▮</span>
         </motion.div>
@@ -51,9 +51,9 @@ export default function Hero() {
               setTimeout(() => e.currentTarget.classList.remove("animate-cyber-glitch"), 400);
             }}
           >
-            annas
+            XELLO
             <span className="text-[#00f2ff] text-4xl md:text-6xl font-mono font-light ml-3 align-middle tracking-wider">
-              .DEV
+              .ALEXSANDER
             </span>
           </h1>
         </motion.div>
