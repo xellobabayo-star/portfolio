@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const socials = [
-  { label: "GITHUB",   href: "https://github.com/sam" },
-  { label: "LINKEDIN", href: "https://linkedin.com/in/sam" },
-  { label: "TWITTER",  href: "https://twitter.com/sam" },
+  { label: "GITHUB",   href: "https://github.com" },
+  { label: "LINKEDIN", href: "https://linkedin.com" },
+  { label: "TWITTER",  href: "https://twitter.com" },
 ];
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
 
           {/* Branding */}
           <div className="text-xs text-zinc-600">
-            <span className="text-white font-bold">ANNAS</span>
+            <span className="text-white font-bold">XELLO</span>
             <span className="mx-2 text-zinc-700">//</span>
             CYBER_PORTFOLIO_2108
           </div>
