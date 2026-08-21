@@ -61,7 +61,7 @@ export default function About() {
           <p className="text-sm leading-relaxed text-zinc-400 font-mono">
             Gw adalah seorang{" "}
             <span className="text-[#00f2ff]">Full-Stack Developer</span>{" "}
-            yang berhasil selamat dari runtuhnya peradaban lama. Mengenakan kacamata tebal untuk menembus baris kode dan bermodalkan logika tajam, gw mendedikasikan hidup gw di tahun 2108 ini buat merestorasi sisa-sisa infrastruktur digital abad 21.
+            yang berhasil selamat dari runtuhnya peradaban lama. Mengenakan kacamata tebal untuk menembus baris kode dan bermodalkan logika tajam, gw mendedikasikan hidup gw di tahun 2010 ini buat merestorasi sisa-sisa infrastruktur digital.
           </p>
           <p className="text-sm leading-relaxed text-zinc-400 font-mono mt-4">
             Gak peduli seberapa hancur ekosistem jaringan di luar sana, tugas gw cuma satu: bypass kegagalan sistem lama, bangun desentralisasi node baru, dan mastiin peradaban manusia bisa kembali ke setelan awal lewat kekuatan kode murni tanpa filter.
