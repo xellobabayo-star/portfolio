@@ -5,7 +5,7 @@ import GlassCard from "../ui/GlassCard";
 import SectionTitle from "../ui/SectionTitle";
 
 const profileData = [
-  { label: "NAME",      value: "XELLO BABAYO" },
+  { label: "NAME",      value: "XELLO ALEXSANDER" },
   { label: "UMUR",    value: "25 TAHUN" },
   { label: "TAHUN", value: "14 JUNI 2001" },
   { label: "LOKASI",       value: "JAKARTA UTARA" },
