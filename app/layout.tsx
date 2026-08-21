@@ -10,11 +10,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SAM // CYBER PORTFOLIO 2108",
+  title: "XELLO // CYBER PORTFOLIO 2108",
   description: "Restoring digital civilization from the ashes.",
   metadataBase: new URL("https://sam-portfolio.vercel.app"),
   openGraph: {
-    title: "SAM // CYBER PORTFOLIO 2108",
+    title: "XELLO // CYBER PORTFOLIO 2108",
     description: "Full-Stack Developer. System Architect. Digital Survivor.",
     type: "website",
   },
